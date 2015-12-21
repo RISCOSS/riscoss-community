@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xwikidoc>
+<web>ow2</web>
+<name>XTable</name>
+<language></language>
+<defaultLanguage>en</defaultLanguage>
+<translation>0</translation>
+<parent>ow2.WebHome</parent>
+<creator>xwiki:XWiki.sl</creator>
+<author>xwiki:XWiki.sl</author>
+<customClass></customClass>
+<contentAuthor>xwiki:XWiki.sl</contentAuthor>
+<creationDate>1446112229000</creationDate>
+<date>1449075000000</date>
+<contentUpdateDate>1449075000000</contentUpdateDate>
+<version>7.10</version>
+<title></title>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment></comment>
+<minorEdit>true</minorEdit>
+<syntaxId>xwiki/2.1</syntaxId>
+<hidden>false</hidden>
+<content>{{velocity}}
+#if($xOptions &amp;&amp; $xOptions.type)
+#if($xOptions.exclude)
+  #set($xwql = "from doc.object(${xOptions.type}) as collectors where doc.fullName&lt;&gt; '${xOptions.exclude}' order by doc.fullName")
+#else
+  #set($xwql = "from doc.object(${xOptions.type}) as collectors order by doc.fullName")
+#end
+#set($results = $services.query.xwql($xwql).execute())
+#set($overviewField = ${xOptions.overview})
+|=(% style="width: 20%" %)Name|=(% style="width: 80%" %)Description
+#foreach($result in $results)
+#set($rdoc = $xwiki.getDocument($result))
+|[[$rdoc.displayTitle&gt;&gt;$result]]|$!rdoc.getObject($xOptions.type).getValue($overviewField)
+#end
+#end
+{{/velocity}}</content></xwikidoc>

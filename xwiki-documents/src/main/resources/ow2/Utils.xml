@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xwikidoc>
+<web>ow2</web>
+<name>Utils</name>
+<language></language>
+<defaultLanguage>en</defaultLanguage>
+<translation>0</translation>
+<parent></parent>
+<creator>xwiki:XWiki.sl</creator>
+<author>xwiki:XWiki.sl</author>
+<customClass></customClass>
+<contentAuthor>xwiki:XWiki.sl</contentAuthor>
+<creationDate>1449603802000</creationDate>
+<date>1449852204000</date>
+<contentUpdateDate>1449852204000</contentUpdateDate>
+<version>2.23</version>
+<title>Utils</title>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment></comment>
+<minorEdit>true</minorEdit>
+<syntaxId>xwiki/2.1</syntaxId>
+<hidden>false</hidden>
+<content>{{groovy}}
+
+CLAZZ = "ow2.Project";
+
+def getPropValue(obj, propName) {
+  def prop = obj.get(propName);
+  if (prop != null)
+    return prop.getValue();
+  else
+    return "";
+}
+
+def projectToJson(docFullName, counter) {
+  def doc = xwiki.getXWiki().getDocument(docFullName, xcontext.context);
+  def obj = doc.getObject(CLAZZ);
+  def vName = getPropValue(obj, "name");
+  def vDocUrl = xwiki.getURL(docFullName);
+  def vUrl = getPropValue(obj, "url")
+  def vTagline = getPropValue(obj, "tagline");
+  def vStatus = getPropValue(obj, "status");
+  def vCategory = getPropValue(obj, "category");
+  def vStandards = getPropValue(obj, "standards");
+  def vLicenses = getPropValue(obj, "licenses");
+     
+  def builder = new groovy.json.JsonBuilder()
+   def root = builder {
+           type "Feature"
+           properties {
+             id doc.space
+             type "Project"
+             name vName
+             documentUrl vDocUrl
+             category vCategory
+             maturity vStatus
+             url vUrl
+             tagline vTagline
+             licenses vLicenses
+             standards vStandards
+           }
+   }
+  return builder.toString().trim();
+}
+
+{{/groovy}}
+</content></xwikidoc>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xwikidoc>
+<web>ow2</web>
+<name>API</name>
+<language></language>
+<defaultLanguage>en</defaultLanguage>
+<translation>0</translation>
+<parent></parent>
+<creator>xwiki:XWiki.sl</creator>
+<author>xwiki:XWiki.sl</author>
+<customClass></customClass>
+<contentAuthor>xwiki:XWiki.sl</contentAuthor>
+<creationDate>1449603903000</creationDate>
+<date>1449604178000</date>
+<contentUpdateDate>1449604178000</contentUpdateDate>
+<version>2.2</version>
+<title>API</title>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment></comment>
+<minorEdit>true</minorEdit>
+<syntaxId>xwiki/2.1</syntaxId>
+<hidden>false</hidden>
+<content>{{include document="ow2.Utils" /}}
+{{groovy}}
+def CLASS = "ow2.Project";
+def outs = response.outputStream;
+response.setContentType("application/json;charset=UTF-8");
+outs &lt;&lt; "{\n";
+outs &lt;&lt; "\"type\": \"FeatureCollection\",\n";
+outs &lt;&lt; "\"features\": [";
+def entries = services.query.xwql(" from doc.object($CLASS) as projects order by doc.fullName").execute();
+entries.eachWithIndex() {
+  it, idx -&gt;
+  if (idx &gt; 0)
+      outs &lt;&lt; ","
+   outs &lt;&lt; projectToJson(it, idx);
+}
+outs &lt;&lt; "]\n}\n";
+outs.close();
+{{/groovy}}
+</content></xwikidoc>

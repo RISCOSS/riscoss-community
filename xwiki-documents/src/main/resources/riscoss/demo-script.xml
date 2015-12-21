@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xwikidoc>
+<web>riscoss</web>
+<name>demo-script</name>
+<language></language>
+<defaultLanguage>en</defaultLanguage>
+<translation>0</translation>
+<parent>riscoss.WebHome</parent>
+<creator>xwiki:XWiki.sl</creator>
+<author>xwiki:XWiki.sl</author>
+<customClass></customClass>
+<contentAuthor>xwiki:XWiki.sl</contentAuthor>
+<creationDate>1447667027000</creationDate>
+<date>1448441133000</date>
+<contentUpdateDate>1448441133000</contentUpdateDate>
+<version>3.1</version>
+<title>Demo Script</title>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment></comment>
+<minorEdit>false</minorEdit>
+<syntaxId>xwiki/2.1</syntaxId>
+<hidden>false</hidden>
+<content>
+{{velocity}}
+#set($counter = 0)
+#macro(sc)#set($counter = $counter+1)Screen #$counter - #end
+
+== #sc() Home ==
+
+Screenr URL: https://projects.ow2.org/bin/view/riscoss/
+
+The home page consists of 3 main panels reflecting the 3 key RISCOSS artefacts in use within the platform:
+1. a data collector panel, which lists the collectors that were configured the platform for fetching data
+1. a risk model panel listing the available risk models
+1. a project analysis panel giving access to the output of models applied to the collected data
+
+== #sc() Data Collectors ==
+
+* We have created data collectors for the main tools that we use at OW2: 
+** Fossology
+** SonarQube
+** OpenHub
+** JIRA [in progress]
+** GForge [in progress]
+** Bamboo [in progress]
+* The full list of data collectors can be accessed by hitting the "View all" button of the data collectors panel. 
+* From there, each collector can be viewed and edited from a dedicated page (hit the 'Fossology' link). 
+
+== #sc() Fossology Data Collector ==
+
+URL: https://projects.ow2.org/bin/view/ow2/fossology-data-collector
+
+* A collector consists in a JavaScript function named "collect" which can either
+** scrape HTML (for example the Fossology collector: in this case, we use a selector syntax to scrape the data we need to feed our RISCOSS model: the number of distinct licenses, the number of files without a license)
+* or parse an API output for example the Sonar collector (next screen)
+
+== #sc() SonarQube Data Collector ==
+
+URL: https://projects.ow2.org/bin/view/ow2/sonarqube-data-collector
+
+The SonarQube collector interacts directly with the SonarQube API by sending paramters for identifying the project's id and version. It compiles the output and save it in a JSON file.
+
+All the collected metrics are then attached to the corresponding project page.
+
+== #sc() JSON Metrics File ==
+
+URL: https://projects.ow2.org/bin/view/asm/?viewer=attachments
+
+The metrics file contains all the risk drivers gathered by the data collectors. In this version of the platform, every new data collecting erases the previous metrics file. A later version will introduce metrics versioning.
+
+== #sc() Risk Models ==
+
+URL: https://projects.ow2.org/
+
+* The risk models can also be listed and edited right from the platform. [Hit the 'Basic Risk Model' link]. 
+* Each model consists of two main parts:
+** a normalization field used to normalize the computed scores, that is to say to convert all scores to a number between 0 (low risk) and 4 (high risk).
+** a list of functions for computing a score from a set of input arguments. For instance the license risk is computed as the average of a set of risk drivers as defined in the RISCOSS meta-model.
+
+We have defined several models on the platform for demo purpose at this stage. However each stakeholder will be able to assess all the OW2 Projects from the point of view of his own risk assessment views.
+
+The OW2 Risk Model is for instance more strict than the Basic Risk Model in its assessment of the license risk: more than 3 distinct licenses is considered as a high risk, while the Basic Risk Model considers the risk is high only when the distinct licenses count is above 5.
+
+
+== #sc() Individual project analysis: ASM (mature project) ==
+
+URL: https://projects.ow2.org/bin/view/asm/
+
+Now that the collectors and the models have been defined, let's see the output on a set of examples.
+
+* Let's see the ASM dashboard example.
+* Each project has a dedicated dashboard divided into four main tabs:
+** Overview
+** Quality Metrics
+** Risk Drivers
+** Risk Assessment
+
+* The Overview is a simple description of the project.
+* The Metrics tab lists all the references to the OW2 SQuAT tools. The last row gives access to the data collected by the data collectors and converted into the JSON format.
+* The Risk Drivers tab presents the collected data in a readable way, in 3 thematic parts: Licensing, Code Quality, Activeness
+* The Risk Assessment represents visually the corresponding risk, computed along the chosen risk model. The model used is shown at the top of the section and can be changed. The section presents first an histochart summarizing the risk. Below is the detailed list of absolute and normalized scores obtained for each field, and for each risk.
+* You can compare the risk profile of ASM with the Basic Risk Model and the OW2 Risk Model by opening a new tab in your browser and select the OW2 Risk Model. Since this one is more strict, you will see that the license risk is higher in this context.
+
+== #sc() Individual project analysis: ActiveXML (Archive) ==
+
+URL: TODO
+
+show high risks with this archived project
+
+== #sc() Global RISCOSS analysis against all the mature or incubating OW2 projects ==
+
+URL: TODO
+
+Show a histogram of all the OW2 projects ordered by global risk level along the OW2 Risk Model.
+
+
+== Platform components ==
+
+* App developed as an XWiki app
+* Usage of NodeJS server side for running the data collectors
+* D3js library used for creating visual reprensentations of the data
+
+== Next Steps ==
+
+* Evaluation of the app, of its output and of its roadmap by the OW2 project leaders and the OW2 Technology Council
+* Fully automate metrics gathering
+* Create additional data collectors
+* Develop additional visual representation
+* Package the project as an open-source app for possible reuse outside OW2
+
+{{/velocity}}
+</content></xwikidoc>

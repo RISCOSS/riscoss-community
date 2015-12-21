@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xwikidoc>
+<web>ow2</web>
+<name>ProjectSheet</name>
+<language></language>
+<defaultLanguage>en</defaultLanguage>
+<translation>0</translation>
+<parent>ow2.Project</parent>
+<creator>xwiki:XWiki.sl</creator>
+<author>xwiki:XWiki.sl</author>
+<customClass></customClass>
+<contentAuthor>xwiki:XWiki.sl</contentAuthor>
+<creationDate>1445877406000</creationDate>
+<date>1450276839000</date>
+<contentUpdateDate>1450276839000</contentUpdateDate>
+<version>25.84</version>
+<title>$!doc.getValue("name")</title>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment></comment>
+<minorEdit>true</minorEdit>
+<syntaxId>xwiki/2.1</syntaxId>
+<hidden>false</hidden><attachment>
+<filename>award.png</filename>
+<filesize>7164</filesize>
+<author>xwiki:XWiki.sl</author>
+<date>1448439621000</date>
+<version>1.1</version>
+<comment></comment><content>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
+</content></attachment>
+<content>{{velocity}}
+#macro(ommAverage $omm $indicators)
+  #set($sum = 0)
+  #foreach($indicator in $indicators)
+    #set($value = $omm.getValue($indicator))
+    #set($sum = $sum + $mathtool.toInteger($value))
+  #end
+  #set($avg = $mathtool.roundTo(1,$mathtool.div($sum,$indicators.size())))
+  $mathtool.toDouble($avg)
+#end
+
+#macro(ommEqualsOneCount $omm $indicators)
+  #set($counter = 0)
+  #foreach($indicator in $indicators)
+    #set($value = $omm.getValue($indicator))
+    #set($score = $mathtool.toInteger($value))
+    #if($score == 1) #set($counter = $counter + 1) #end
+  #end
+  $counter
+#end
+
+
+#set($ommLcs = 0) #set($ommPdoc = 0) #set($ommStd = 0) #set($ommQtp = 0) #set($ommEnv = 0) #set($ommDfct = 0) #set($ommMst = 0) #set($ommCm = 0) #set($ommPp = 0) #set($ommReqm = 0) #set($ommRdmp = 0) #set($ommStk = 0)
+#set($class = $doc.getObject('ow2.Project').xWikiClass)
+#set($status =  $doc.getObject("ow2.Project").getValue("status"))
+
+{{html wiki="true"}}
+&lt;div&gt;
+
+  &lt;ul class="nav nav-tabs" role="tablist"&gt;
+    &lt;li role="presentation" class="active"&gt;&lt;a href="#overview" aria-controls="overview" role="tab" data-toggle="tab"&gt;Overview&lt;/a&gt;&lt;/li&gt;
+    #if($status == "mature")
+      &lt;li role="presentation"&gt;&lt;a href="#forge-tools" aria-controls="forge-tools" role="tab" data-toggle="tab"&gt;Quality Metrics&lt;/a&gt;&lt;/li&gt;
+      #if($context.action == "view")
+        &lt;li role="presentation"&gt;&lt;a href="#risk-drivers" aria-controls="risk-drivers" role="tab" data-toggle="tab"&gt;Risk Drivers&lt;/a&gt;&lt;/li&gt;
+        &lt;li role="presentation"&gt;&lt;a href="#risk-indicators" aria-controls="risk-indicators" role="tab" data-toggle="tab"&gt;Risk Assessment&lt;/a&gt;&lt;/li&gt;
+      #end
+    #end
+  &lt;/ul&gt;
+
+  &lt;div class="tab-content"&gt;
+     &lt;div role="tabpanel" class="tab-pane active" id="overview"&gt;
+     (% class="project-summary-table" %)
+     #if($context.action == "view")
+     |(% colspan="2" %)//$doc.display("tagline")//
+     #set($logo = $doc.getObject("ow2.Project").getValue("logo"))
+     |(% colspan="2" %)#if($logo &amp;&amp; $logo.length()&gt;0)[[image:$doc.display("logo")||align="right" style="margin-left:1em;"]]#end $doc.display("description")
+     #else
+     |=Name|$doc.display("name")
+     |=Tagline|$doc.display("tagline")
+     |=Logo|$doc.display("logo")
+     |=Description|$doc.display("description")
+     #end
+     #set($fProps = ["url", "leaders", "category", "status", "licenses", "vcs", "issueTrackerUrl", "discussionChannels", "datasheets", "support", "standards", "caseStudies", "documentation", "awards"])
+     #foreach($prop in $class.properties) 
+       #if($fProps.indexOf($prop.name)&gt;=0)
+         #set($prettyName = $prop.prettyName)
+         #set($ovalue =  $doc.getObject("ow2.Project").getValue($prop.name))
+         #if($context.action == "view")
+           #if($prop.name == "awards")
+             #set($awardsYaml = $doc.getValue($prop.name))
+             #if($awardsYaml &amp;&amp; $awardsYaml.length() &gt; 0)
+               #set($link = "")
+               #set($pattern = $regextool.compile("link:(.*)"))
+               #set($matcher = $pattern.matcher($awardsYaml))
+               #if ($matcher.find())
+                 #set($link = $matcher.group(1))
+               #end
+               |=(% style="width:20%" %)$prettyName|(((
+                 [[image:ow2.ProjectSheet@award.png||align=left]] (% style="margin-left: 1em;" %)$link
+               )))
+             #end
+           #elseif($ovalue &amp;&amp; ($ovalue.trim().length() &gt; 0 || $ovalue.size() &gt; 0))
+             |=(% style="width:20%" %)$prettyName|$doc.display($prop.name)
+           #end
+         #else
+           |=(% style="width:20%" %)$prettyName|$doc.display($prop.name)
+         #end
+       #end
+     #end
+     #if($context.action=="view")
+       #set($xwql = "from doc.object(ow2.Submission) as submission where doc.parent='$doc.fullName'")
+       #set($results = $services.query.xwql($xwql).execute())
+       #if($results &amp;&amp; $results.size()&gt;0)
+         #set($submission = $xwiki.getDocument($results.get(0)))
+         #if($xwiki.hasAccessLevel("view", $context.user, $results.get(0)))
+           |=OW2 submission|[[$doc.getValue("name")&gt;&gt;$submission]]
+         #end
+       #end
+     #end
+     &lt;/div&gt;
+
+#if($status == "mature")
+     &lt;div role="tabpanel" class="tab-pane" id="forge-tools"&gt;
+     #set($fProps = ["sonarId", "fossologyId", "gforgeId", "openhubId", "jiraId"])
+     #set($rootUrls = {"sonarId": "http://sonar.ow2.org/dashboard/index/", "fossologyId": "http://fossology.ow2.org/?mod=license&amp;", "gforgeId": "http://forge.ow2.org/projects/", "openhubId": "https://www.openhub.net/p/", "jiraId": "http://jira.ow2.org/"})
+     #foreach($prop in $class.properties) 
+       #if($fProps.indexOf($prop.name)&gt;=0)
+         #set($prettyName = $prop.prettyName)
+         #set($idx = $prettyName.indexOf("ID"))
+         #set($prettyName = $prettyName.substring(0, $idx).trim())
+         #if($context.action == "view")
+         #set($rootUrl = $rootUrls.get($prop.name))
+         #set($lVal = $doc.getObject("ow2.Project").getValue($prop.name))
+         #if($prop.name == "sonarId" &amp;&amp; $lVal &amp;&amp; $lVal.length()&gt;0)
+           #set($lVal = $lVal.split("\|").get(1))
+         #end
+         #set($lUrl = $rootUrl+$lVal)
+         |=(% style="width:20%" %)$prettyName|[[$prettyName&gt;&gt;$lUrl]]
+         #else
+         |=(% style="width:20%" %)$prettyName|$doc.display($prop.name)
+         #end
+       #end
+     #end
+#if($context.action=="view")
+#set($xwql = "from doc.object(ow2.Omm) as omm where doc.parent='$doc.fullName'")
+#set($results = $services.query.xwql($xwql).execute())
+#if($results &amp;&amp; $results.size()&gt;0)
+#set($omm = $xwiki.getDocument($results.get(0)))
+#set($ommLcs = "#ommEqualsOneCount($omm, ['LCS-1_1', 'LCS-1_2', 'LCS-2_1', 'LCS-2_2', 'LCS-3_1', 'LCS-3_2'])")
+#set($ommPdoc = "#ommEqualsOneCount($omm, ['PDOC-1_1', 'PDOC-1_2', 'PDOC-1_3', 'PDOC-2_1', 'PDOC-2_2', 'PDOC-3_1', 'PDOC-3_2', 'PDOC-3_3', 'PDOC-3_4'])")
+#set($ommStd = "#ommEqualsOneCount($omm, ['STD-1_1', 'STD-1_2', 'STD-1_3', 'STD-2_1'])")
+#set($ommQtp = "#ommEqualsOneCount($omm, ['QTP-1_1', 'QTP-1_2', 'QTP-1_3', 'QTP-1_4', 'QTP-2_1', 'QTP-2_2', 'QTP-3_1'])")
+#set($ommEnv = "#ommEqualsOneCount($omm, ['ENV-1_1', 'ENV-1_2', 'ENV-1_3', 'ENV-2_1', 'ENV-2_2'])")
+#set($ommDfct = "#ommEqualsOneCount($omm, ['DFCT-1_1', 'DFCT-1_2', 'DFCT-2_1', 'DFCT-3_1', 'DFCT-3_2', 'DFCT-4_1', 'DFCT-4_2'])")
+#set($ommMst = "#ommEqualsOneCount($omm, ['MST-1_1', 'MST-1_2', 'MST-1_3', 'MST-2_1', 'MST-2_2'])")
+#set($ommCm = "#ommEqualsOneCount($omm, ['CM-1_1', 'CM-1_2', 'CM-1_3', 'CM-2_1', 'CM-2_2', 'CM-3_1'])")
+#set($ommPp = "#ommEqualsOneCount($omm, ['PP-1_1', 'PP-1_2', 'PP-1_3', 'PP-2_1'])")
+#set($ommReqm = "#ommEqualsOneCount($omm, ['REQM-1', 'REQM-2'])")
+#set($ommRdmp = "#ommEqualsOneCount($omm, ['RDMP-1', 'RDMP-2', 'RDMP-3'])")
+#set($ommStk = "#ommEqualsOneCount($omm, ['STK-1_1', 'STK-1_2', 'STK-1_3', 'STK-2_1', 'STK-2_2', 'STK-2_3', 'STK-3_1', 'STK-3_2', 'STK-3_3'])")
+|=Open Maturity Model|(((
+[[$omm.displayTitle&gt;&gt;$omm]]
+#set($ommLcsAvg = "#ommAverage($omm, ['LCS-1_1', 'LCS-1_2', 'LCS-2_1', 'LCS-2_2', 'LCS-3_1', 'LCS-3_2'])")
+#set($ommPdocAvg = "#ommAverage($omm, ['PDOC-1_1', 'PDOC-1_2', 'PDOC-1_3', 'PDOC-2_1', 'PDOC-2_2', 'PDOC-3_1', 'PDOC-3_2', 'PDOC-3_3', 'PDOC-3_4'])")
+#set($ommStdAvg = "#ommAverage($omm, ['STD-1_1', 'STD-1_2', 'STD-1_3', 'STD-2_1'])")
+#set($ommQtpAvg = "#ommAverage($omm, ['QTP-1_1', 'QTP-1_2', 'QTP-1_3', 'QTP-1_4', 'QTP-2_1', 'QTP-2_2', 'QTP-3_1'])")
+#set($ommEnvAvg = "#ommAverage($omm, ['ENV-1_1', 'ENV-1_2', 'ENV-1_3', 'ENV-2_1', 'ENV-2_2'])")
+#set($ommDfctAvg = "#ommAverage($omm, ['DFCT-1_1', 'DFCT-1_2', 'DFCT-2_1', 'DFCT-3_1', 'DFCT-3_2', 'DFCT-4_1', 'DFCT-4_2'])")
+#set($ommMstAvg = "#ommAverage($omm, ['MST-1_1', 'MST-1_2', 'MST-1_3', 'MST-2_1', 'MST-2_2'])")
+#set($ommCmAvg = "#ommAverage($omm, ['CM-1_1', 'CM-1_2', 'CM-1_3', 'CM-2_1', 'CM-2_2', 'CM-3_1'])")
+#set($ommPpAvg = "#ommAverage($omm, ['PP-1_1', 'PP-1_2', 'PP-1_3', 'PP-2_1'])")
+#set($ommReqmAvg = "#ommAverage($omm, ['REQM-1', 'REQM-2'])")
+#set($ommRdmpAvg = "#ommAverage($omm, ['RDMP-1', 'RDMP-2', 'RDMP-3'])")
+#set($ommStkAvg = "#ommAverage($omm, ['STK-1_1', 'STK-1_2', 'STK-1_3', 'STK-2_1', 'STK-2_2', 'STK-2_3', 'STK-3_1', 'STK-3_2', 'STK-3_3'])")
+
+{{html}}
+&lt;div class="chart" id="omm-chart"&gt;&lt;/div&gt;
+&lt;div class="chart-legend"&gt;Average OMM score by category&lt;/div&gt;
+{{/html}}
+)))
+#end
+|=Metrics file|&lt;a href="$doc.getAttachmentURL("metrics.json")"&gt;metrics.json&lt;/a&gt;
+#end
+
+     &lt;/div&gt;
+
+     &lt;div role="tabpanel" class="tab-pane" id="risk-drivers"&gt;
+#set($str = $doc.getAttachment("metrics.json").getContentAsString())
+#set($metrics = $jsontool.parse($str))
+#set($fossology = $metrics.fossology)
+#set($sonar = $metrics.sonar.metrics)
+#set($openhub = $metrics.openhub)
+#set($openhubKey = $doc.getObject("ow2.Project").getValue("openhubId"))
+#set($openhubSource = "https://www.openhub.net/p/"+$openhubKey)
+#set($coverage = $sonar.coverage.val)
+#* Recent versions of Sonar use 'overall_coverage' instead of 'coverage', it seems. *#
+#if (!$coverage)
+   #set($coverage = $sonar.overall_coverage.val)
+   #if (!$coverage)
+     #set($coverage = 0)
+   #end
+#end
+#set($testSuccessDensity = $!sonar.test_success_density.val)
+#if(!$testSuccessDensity)
+  #set($testSuccessDensity = 0)
+#end
+&lt;div&gt;
+
+  &lt;ul class="nav nav-tabs" role="tablist"&gt;
+    &lt;li role="presentation" class="active"&gt;&lt;a href="#licensing" aria-controls="licensing" role="tab" data-toggle="tab"&gt;Licensing&lt;/a&gt;&lt;/li&gt;
+    &lt;li role="presentation"&gt;&lt;a href="#code" aria-controls="code" role="tab" data-toggle="tab"&gt;Code Quality&lt;/a&gt;&lt;/li&gt;
+    &lt;li role="presentation"&gt;&lt;a href="#activeness" aria-controls="activeness" role="tab" data-toggle="tab"&gt;Activeness&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;div class="tab-content"&gt;
+  &lt;div role="tabpanel" class="tab-pane active" id="licensing"&gt;
+(% style="margin-top:0.5em;" class="metrics-table" %)
+|=(% style="width:30%" %)License|=File count|=Source
+#foreach($metric in $fossology.licenses)
+|$metric.name|$metric.count|[[OW2 Fossology&gt;&gt;http://fossology.ow2.org]]
+#end
+
+**Total files count:**  $!fossology.fileCount
+  &lt;/div&gt;
+
+  &lt;div role="tabpanel" class="tab-pane" id="code"&gt;
+(% style="margin-top:0.5em;" class="metrics-table" %)
+|=(% style="width:30%" %)Metric|=Value|=Formatted Value|=Source
+#foreach($key in $sonar.keySet())
+#set($prettyKey = $key.replaceAll("_"," "))
+#set($prettyKey = $prettyKey.replaceAll("api","API"))
+#set($prettyKey = $stringtool.capitalize($prettyKey))
+|$prettyKey|$!sonar.get($key).val|$!sonar.get($key).frmt_val|[[OW2 SonarQube&gt;&gt;http://sonar.ow2.org||target="_blank"]]
+#end
+  &lt;/div&gt;
+  &lt;div role="tabpanel" class="tab-pane" id="activeness"&gt;
+(% style="margin-top:0.5em;" class="metrics-table" %)
+|=(% style="width:30%" %)Metric|=Value|=Source
+|OpenHub activity score|$!openhub.activity|[[OpenHub&gt;&gt;$openhubSource]]
+|OpenHub one year contributor count|$!openhub["one-year-contributor-count"]|[[OpenHub&gt;&gt;$openhubSource]]
+|OMM configuration management|$!ommCm.trim()|[[$!omm.displayTitle&gt;&gt;$!omm]]
+|OMM project planning|$!ommPp.trim()|[[$!omm.displayTitle&gt;&gt;$!omm]]
+|OMM requirements|$!ommReqm.trim()|[[$!omm.displayTitle&gt;&gt;$!omm]]
+|OMM roadmap|$!ommRdmp.trim()|[[$!omm.displayTitle&gt;&gt;$!omm]]
+|OMM stakeholders|$!ommStk.trim()|[[$!omm.displayTitle&gt;&gt;$!omm]]
+  &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+     &lt;/div&gt;
+
+&lt;div role="tabpanel" class="tab-pane" id="risk-indicators"&gt;
+|=(% style="width:20%; vertical-align: middle;" %)Choose a Risk Model:|(((
+#set($xwql = "from doc.object(ow2.RiskModel) as riskModel where doc.name &lt;&gt; 'RiskModelTemplate' order by riskModel.name")
+#set($models = $services.query.xwql($xwql).execute())
+&lt;form action="" method="POST" class="model-form"&gt;
+&lt;select name="risk-model" class="model-select"&gt;
+&lt;option value=""&gt;Risk Models&lt;/option&gt;
+#set($selectedModel = $request.getParameter("risk-model"))
+#if(!$selectedModel)
+#set($selectedModel = "ow2.basic-risk-model")
+#end
+#foreach($model in $models)
+#set ($selected = "")
+#if ($model == $selectedModel)
+#set ($selected = "selected")
+#end
+#set($mdoc = $xwiki.getDocument($model))
+&lt;option value="$model" $selected&gt;$mdoc.displayTitle&lt;/option&gt;
+#end
+&lt;/select&gt;
+&lt;/form&gt;
+)))
+
+&lt;div class="chart" id="risk-chart"&gt;&lt;/div&gt;
+
+|=(% style="width:15%" %) |=(% style="width:50%" %)Indicators|=Computed Score
+|=License risk &lt;span class="glyphicon glyphicon-info-sign" data-container="body" data-placement="right" data-toggle="popover" id="license-risk-info" data-original-title="" title=""&gt;&lt;/span&gt;|(((
+||Value|Normalized &lt;span class="glyphicon glyphicon-info-sign" data-container="body" data-placement="right" data-toggle="popover" id="normalized-info-1" data-original-title="" title=""&gt;&lt;/span&gt;
+|Unique license|$!fossology.licenses.size()|&lt;span class="unique-licenses-tagged"&gt;&lt;/span&gt;
+#set($ratioNoLicense = $mathtool.div($!fossology.noLicenseCount,$!fossology.fileCount))
+#set($ratioNoLicense = $mathtool.roundTo(2, $ratioNoLicense))
+#set($ratioNoLicensePercent = $mathtool.mul(100, $ratioNoLicense))
+|Ratio no license|$ratioNoLicensePercent%|&lt;span class="ratio-no-license-tagged"&gt;&lt;/span&gt;
+#set($ommLcs = $mathtool.toInteger($!ommLcs.trim()))
+|OMM License Indicator|$ommLcs|&lt;span class="omm-license-tagged"&gt;&lt;/span&gt;
+)))|&lt;span class="licenseScore"&gt;&lt;/span&gt;
+|=Quality risk &lt;span class="glyphicon glyphicon-info-sign" data-container="body" data-placement="right" data-toggle="popover" id="quality-risk-info" data-original-title="" title=""&gt;&lt;/span&gt;|(((
+||Value|Normalized &lt;span class="glyphicon glyphicon-info-sign" data-container="body" data-placement="right" data-toggle="popover" id="normalized-info-2" data-original-title="" title=""&gt;&lt;/span&gt;
+|Blocker issues|$!sonar.blocker_violations.val|&lt;span class="blocker-issues-tagged"&gt;&lt;/span&gt;
+|Critical issues|$!sonar.critical_violations.val|&lt;span class="critical-issues-tagged"&gt;&lt;/span&gt;
+|Test coverage|$!sonar.coverage.frmt_val $!sonar.overall_coverage.frmt_val|&lt;span class="test-coverage-tagged"&gt;&lt;/span&gt;
+|Test success|$!sonar.test_success_density.frmt_val|&lt;span class="test-success-tagged"&gt;&lt;/span&gt;
+#set($ommPdoc = $mathtool.toInteger($!ommPdoc.trim()))
+|OMM documentation|$ommPdoc|&lt;span class="omm-pdoc-tagged"&gt;&lt;/span&gt;
+#set($ommStd = $mathtool.toInteger($!ommStd.trim()))
+|OMM standards|$ommStd|&lt;span class="omm-std-tagged"&gt;&lt;/span&gt;
+#set($ommQtp = $mathtool.toInteger($!ommQtp.trim()))
+|OMM testing process|$ommQtp|&lt;span class="omm-qtp-tagged"&gt;&lt;/span&gt;
+#set($ommEnv = $mathtool.toInteger($!ommEnv.trim()))
+|OMM software environment|$ommEnv|&lt;span class="omm-env-tagged"&gt;&lt;/span&gt;
+#set($ommDfct = $mathtool.toInteger($!ommDfct.trim()))
+|OMM commits and bug reports|$ommDfct|&lt;span class="omm-dfct-tagged"&gt;&lt;/span&gt;
+#set($ommMst = $mathtool.toInteger($!ommMst.trim()))
+|OMM maintainability and stability|$ommMst|&lt;span class="omm-mst-tagged"&gt;&lt;/span&gt;
+)))|&lt;span class="qualityScore"&gt;&lt;/span&gt;
+|=Activeness risk &lt;span class="glyphicon glyphicon-info-sign" data-container="body" data-placement="right" data-toggle="popover" id="activity-risk-info" data-original-title="" title=""&gt;&lt;/span&gt;|(((
+||Value|Normalized &lt;span class="glyphicon glyphicon-info-sign" data-container="body" data-placement="right" data-toggle="popover" id="normalized-info-3" data-original-title="" title=""&gt;&lt;/span&gt;
+|OpenHub activity|$!openhub.activity|&lt;span class="openhub-activity"&gt;&lt;/span&gt;
+|OpenHub contributor count (1 year)|$!openhub["one-year-contributor-count"]|&lt;span class="openhub-one-year-contributor-count"&gt;&lt;/span&gt;
+#set($ommCm = $mathtool.toInteger($!ommCm.trim()))
+|OMM configuration management|$ommCm|&lt;span class="omm-cm"&gt;&lt;/span&gt;
+#set($ommPp = $mathtool.toInteger($!ommPp.trim()))
+|OMM project planning|$ommPp|&lt;span class="omm-pp"&gt;&lt;/span&gt;
+#set($ommReqm = $mathtool.toInteger($!ommReqm.trim()))
+|OMM requirements|$ommReqm|&lt;span class="omm-reqm"&gt;&lt;/span&gt;
+#set($ommRdmp = $mathtool.toInteger($!ommRdmp.trim()))
+|OMM roadmap|$ommRdmp|&lt;span class="omm-rdmp"&gt;&lt;/span&gt;
+#set($ommStk = $mathtool.toInteger($!ommStk.trim()))
+|OMM stakeholders|$ommStk|&lt;span class="omm-stk"&gt;&lt;/span&gt;
+)))|&lt;span class="activenessScore"&gt;&lt;/span&gt;
+
+
+
+&lt;script type="text/javascript"&gt;
+require(['jquery', 'bootstrap'], function($) {
+  #*** HASH MANAGEMENT ***#
+  var hash = window.location.hash;
+  hash &amp;&amp; $('ul.nav a[href="' + hash + '"]').tab('show');
+  $('.nav-tabs a').click(function (e) {
+    $(this).tab('show');
+    var scrollmem = $('body').scrollTop();
+    window.location.hash = this.hash;
+    $('html,body').scrollTop(scrollmem);
+  });
+
+  #*** POPOVERS ***#
+  #set($normalizationInfo = "The normalized values are an adjustement of the absolute values measured on different scales to a common scale defined by the risk model in use.")
+  $('#license-risk-info').popover({trigger: 'hover click', content: "The license risk refers to the number and the diversity of software licenses included in the source code, raising possible incompatibility issues.", html: true});
+  $('#quality-risk-info').popover({trigger: 'hover click', content: "This type of risk refers to possible presence of bugs in the code due to either the size of the repository (difficult to be kept under control), or to a high open/closed issue ratio, which may mean low effectiveness in closing bugs.", html: true});
+  $('#activity-risk-info').popover({trigger: 'hover click', content: "This risk refers to the activeness of the project developers (contributors), their responsiveness in the issue tracker and the stability of the project (including project age).", html: true});
+  $('#normalized-info-1').popover({trigger: 'hover click', content: "$normalizationInfo", html: true});
+  $('#normalized-info-2').popover({trigger: 'hover click', content: "$normalizationInfo", html: true});
+  $('#normalized-info-3').popover({trigger: 'hover click', content: "$normalizationInfo", html: true});
+
+  #set($riskModelId = "ow2.basic-risk-model")
+  #if($request.getParameter("risk-model"))
+    #set($riskModelId = $request.getParameter("risk-model"))  
+  #end
+
+  var TAGGING = {};
+
+  #set($riskModelDoc = $xwiki.getDocument($riskModelId))
+  #set($riskModel = $riskModelDoc.getObject("ow2.RiskModel"))
+  #set($norm = $riskModel.getValue("norm").trim())
+  #set($norm = $norm.split('\n'))
+  #foreach($inorm in $norm) 
+     #set($tag = $inorm.trim().split('\|'))
+     TAGGING["$tag[1]"] = $tag[2];
+  #end
+
+  console.log('&gt;&gt; TAGGING', TAGGING);
+
+  function normalize(value, taggingKey, reverse) {
+    console.log('&gt;&gt;&gt; VALUE', value, taggingKey);
+    var intervals = TAGGING[taggingKey];
+    for (var i = 0; i &lt; intervals.length - 1; i++) {
+      if (intervals[i] &lt;= value &amp;&amp; value &lt;= intervals[i + 1]) {
+        var normalized = i + 1;
+        if (reverse)
+          return intervals.length - normalized;
+        else
+          return normalized;
+      }
+    }
+    return undefined;
+  }
+
+  $riskModel.getValue("computeLicenseScore").trim()
+  $riskModel.getValue("computeQualityScore").trim()
+  $riskModel.getValue("computeActivityScore").trim()
+  
+  #* LICENSES *#
+  $('.unique-licenses-tagged').text(normalize($fossology.licenses.size(), "unique-licenses"));
+  $('.ratio-no-license-tagged').text(normalize($ratioNoLicense*100, "ratio-no-license"));
+  $('.omm-license-tagged').text(normalize($ommLcs, "omm-license"));
+  var licenseScore = computeLicenseRisk($fossology.licenses.size(), $fossology.noLicenseCount, $fossology.fileCount, $ommLcs); 
+  $('.licenseScore').text(licenseScore.toFixed(1));
+
+  #* QUALITY *#
+  $('.blocker-issues-tagged').text(normalize($!sonar.blocker_violations.val, "blocker-issues"));
+  $('.critical-issues-tagged').text(normalize($!sonar.critical_violations.val, "critical-issues"));
+  $('.test-coverage-tagged').text(normalize($coverage, "test-coverage", true));
+  $('.test-success-tagged').text(normalize($testSuccessDensity, "test-success", true));
+  $('.omm-pdoc-tagged').text(normalize($ommPdoc, "omm-pdoc"));
+  $('.omm-env-tagged').text(normalize($ommEnv, "omm-env"));
+  $('.omm-qtp-tagged').text(normalize($ommQtp, "omm-qtp"));
+  $('.omm-std-tagged').text(normalize($ommStd, "omm-std"));
+  $('.omm-dfct-tagged').text(normalize($ommDfct, "omm-dfct"));
+  $('.omm-mst-tagged').text(normalize($ommMst, "omm-mst"));
+
+
+  #* ACTIVENESS *#
+  $('.openhub-activity').text(normalize($openhub.activity, "openhub-activity", true));
+  $('.openhub-one-year-contributor-count').text(normalize($openhub["one-year-contributor-count"], "openhub-one-year-contributor-count", true));
+  $('.omm-cm').text(normalize($ommCm, "omm-cm"));
+  $('.omm-pp').text(normalize($ommPp, "omm-pp"));
+  $('.omm-reqm').text(normalize($ommReqm, "omm-reqm"));
+  $('.omm-rdmp').text(normalize($ommRdmp, "omm-rdmp"));
+  $('.omm-stk').text(normalize($ommStk, "omm-stk"));
+
+  var qualityScore = computeCodeQualityRisk($sonar.blocker_violations.val, $sonar.critical_violations.val, $coverage, $testSuccessDensity, $!ommPdoc, $!ommStd, $!ommQtp, $!ommEnv, $!ommDfct, $!ommMst); 
+  $('.qualityScore').text(qualityScore.toFixed(1));
+
+  var activenessScore = computeActivenessRisk($!ommCm, $!ommPp, $!ommReqm, $!ommRdmp, $!ommStk); 
+  $('.activenessScore').text(activenessScore.toFixed(1));
+
+  $('select.model-select').on('change', function() {
+    if (this.value) {
+      $('form.model-form').submit();
+    }
+  });
+});
+&lt;/script&gt;
+
+$!xwiki.jsx.use("Macros.d3js", {"minify":false})
+
+&lt;script type="text/javascript"&gt;
+
+document.observe('d3:loaded', function() {
+
+  setTimeout(createOmmChart, 500);
+  setTimeout(createRiskChart, 500);
+
+  function createRiskChart() {
+
+    var names = ['License Risk', 'Quality Risk', 'Activeness Risk'],
+      chart, width = 400, bar_height = 30, height = bar_height * names.length;
+
+    var licenseScore = Number(d3.select('.licenseScore').text());
+    var qualityScore = d3.select('.qualityScore').text();
+    var activenessScore = d3.select('.activenessScore').text();
+  
+    var data = [licenseScore, qualityScore, activenessScore];
+
+    var left_width = 150;
+    var x, y;
+
+    x = d3.scale.linear()
+        .domain([0, 4])
+        .range([0, width]);
+
+    var gap = 10;
+
+    y = d3.scale.ordinal()
+        .domain(data)
+        .rangeBands([0, (bar_height + 2 * gap) * names.length]);
+
+    chart = d3.select('#risk-chart')
+           .append('svg')
+           .attr('class', 'chart')
+           .attr('width', left_width + width + 40)
+           .attr('height', (bar_height + gap * 2) * names.length + 30)
+           .append("g")
+           .attr("transform", "translate(10, 20)");
+
+    chart.selectAll("line")
+      .data(x.ticks(4))
+      .enter().append("line")
+      .attr("x1", function(d) {
+        return x(d) + left_width;
+      })
+      .attr("x2", function(d) {
+        return x(d) + left_width;
+      })
+      .attr("y1", 0)
+      .attr("y2", (bar_height + gap * 2) * names.length - gap*2);
+
+    chart.selectAll(".rule")
+      .data(x.ticks(4))
+      .enter().append("text")
+      .attr("class", "rule")
+      .attr("x", function(d) {
+        return x(d) + left_width;
+      })
+      .attr("y", 0)
+      .attr("dy", -6)
+      .attr("text-anchor", "middle")
+      .attr("font-size", 10)
+      .text(String);
+
+    chart.selectAll("rect")
+      .data(data)
+      .enter().append("rect")
+      .attr("x", left_width)
+      .attr("y", function(d, i) {
+        return i*bar_height + (i+1)*gap;
+      })
+      .attr("width", x)
+      .attr("height", bar_height);
+
+    chart.selectAll("text.score")
+      .data(data)
+      .enter().append("text")
+      .attr("x", function(d) {
+        return x(d) + left_width;
+      })
+      .attr("y", function(d, i) {
+        return i*bar_height + (i+1)*gap+bar_height/2;
+      })
+      .attr("dx", -5)
+      .attr("dy", ".36em")
+      .attr("text-anchor", "end")
+      .attr('class', 'score')
+      .text(Number);
+
+    chart.selectAll("text.name")
+      .data(names)
+      .enter().append("text")
+      .attr("x", 0)
+      .attr("y", function(d, i) {
+        return i*bar_height + (i+1)*gap+bar_height/2;
+      })
+      .attr("dy", ".36em")
+      .attr("text-anchor", "start")
+      .attr('class', 'name')
+      .text(String);
+  };
+
+  function createOmmChart() {
+
+    var names = ['Documentation', 'Standards', 'Testing process', 'Licenses and IP', 'Environment', 'Commits and bug reports', 'Maintainability', 'Configuration management', 'Project planning', 'Requirements management', 'Roadmap management', 'Stakeholders involvement'],
+      chart, width = 400, bar_height = 30, height = bar_height * names.length;
+    
+    var data = [$ommPdocAvg, $ommStdAvg, $ommQtpAvg, $ommLcsAvg, $ommEnvAvg, $ommDfctAvg, $ommMstAvg, $ommCmAvg, $ommPpAvg, $ommReqmAvg, $ommRdmpAvg, $ommStkAvg ];
+
+    var left_width = 250;
+    var x, y;
+
+    x = d3.scale.linear()
+        .domain([0, 4])
+        .range([0, width]);
+
+    var gap = 10;
+
+    y = d3.scale.ordinal()
+        .domain(data)
+        .rangeBands([0, (bar_height + 2 * gap) * names.length]);
+
+    chart = d3.select('#omm-chart')
+           .append('svg')
+           .attr('class', 'chart')
+           .attr('width', left_width + width + 40)
+           .attr('height', (bar_height + gap * 2) * names.length - gap * (names.length) + gap * 3)
+           .append("g")
+           .attr("transform", "translate(10, 20)");
+
+    chart.selectAll("line")
+      .data(x.ticks(4))
+      .enter().append("line")
+      .attr("x1", function(d) {
+        return x(d) + left_width;
+      })
+      .attr("x2", function(d) {
+        return x(d) + left_width;
+      })
+      .attr("y1", 0)
+      .attr("y2", (bar_height + gap * 2) * names.length - gap * names.length + gap * 2);
+
+    chart.selectAll(".rule")
+      .data(x.ticks(4))
+      .enter().append("text")
+      .attr("class", "rule")
+      .attr("x", function(d) {
+        return x(d) + left_width;
+      })
+      .attr("y", 0)
+      .attr("dy", -6)
+      .attr("text-anchor", "middle")
+      .attr("font-size", 10)
+      .text(String);
+
+    chart.selectAll("rect")
+      .data(data)
+      .enter().append("rect")
+      .attr("x", left_width)
+      .attr("y", function(d, i) {
+        return i*bar_height + (i+1)*gap;
+      })
+      .attr("width", x)
+      .attr("height", bar_height);
+
+    chart.selectAll("text.score")
+      .data(data)
+      .enter().append("text")
+      .attr("x", function(d) {
+        return x(d) + left_width;
+      })
+      .attr("y", function(d, i) {
+        return i*bar_height + (i+1)*gap+bar_height/2;
+      })
+      .attr("dx", -5)
+      .attr("dy", ".36em")
+      .attr("text-anchor", "end")
+      .attr('class', 'score')
+      .text(Number);
+
+    chart.selectAll("text.name")
+      .data(names)
+      .enter().append("text")
+      .attr("x", 0)
+      .attr("y", function(d, i) {
+        return i*bar_height + (i+1)*gap+bar_height/2;
+      })
+      .attr("dy", ".36em")
+      .attr("text-anchor", "start")
+      .attr('class', 'name')
+      .text(String);
+  };
+  
+});
+&lt;/script&gt;
+#end
+
+
+&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+{{/html}}
+
+{{/velocity}}</content></xwikidoc>

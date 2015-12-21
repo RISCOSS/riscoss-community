@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+<infos/>
+<name>riscoss-community</name>
+<description>RISCOSS Community Platform</description>
+<licence>LGPL</licence>
+<author>xwiki:XWiki.sl</author>
+<version></version>
+<backupPack>false</backupPack>
+<preserveVersion>false</preserveVersion>
+<files>
+<file defaultAction="0" language="">riscoss.WebHome</file>
+<file defaultAction="0" language="">riscoss.WebPreferences</file>
+<file defaultAction="0" language="">riscoss.demo-script</file>
+<file defaultAction="0" language="">riscoss.about</file>
+<file defaultAction="0" language="">riscoss.images</file>
+<file defaultAction="0" language="">ow2.Project</file>
+<file defaultAction="0" language="">ow2.ProjectSheet</file>
+<file defaultAction="0" language="">ow2.JavaScriptExtension</file>
+<file defaultAction="0" language="">ow2.StyleSheet</file>
+<file defaultAction="0" language="">ow2.Utils</file>
+<file defaultAction="0" language="">ow2.WebHome</file>
+<file defaultAction="0" language="">ow2.API</file>
+<file defaultAction="0" language="">ow2.DataCollector</file>
+<file defaultAction="0" language="">ow2.risk-models</file>
+<file defaultAction="0" language="">ow2.CreateForm</file>
+<file defaultAction="0" language="">ow2.RiskModelTemplate</file>
+<file defaultAction="0" language="">ow2.XTable</file>
+<file defaultAction="0" language="">ow2.SkinProjects</file>
+<file defaultAction="0" language="">ow2.red-parrot-risk-model</file>
+<file defaultAction="0" language="">ow2.sonarqube-data-collector</file>
+<file defaultAction="0" language="">ow2.open-hub-data-collector</file>
+<file defaultAction="0" language="">ow2.jira-data-collector</file>
+<file defaultAction="0" language="">ow2.gforge-data-collector</file>
+<file defaultAction="0" language="">ow2.data-collectors</file>
+<file defaultAction="0" language="">ow2.fossology-data-collector</file>
+<file defaultAction="0" language="">ow2.DataCollectorSheet</file>
+<file defaultAction="0" language="">ow2.white-bird-risk-model</file>
+<file defaultAction="0" language="">ow2.demo-risk-model</file>
+<file defaultAction="0" language="">ow2.ow2-risk-model</file>
+<file defaultAction="0" language="">ow2.basic-risk-model</file>
+<file defaultAction="0" language="">ow2.RiskModel</file>
+<file defaultAction="0" language="">ow2.OmmChartSandbox</file>
+<file defaultAction="0" language="">ow2.RiskModelSheet</file>
+<file defaultAction="0" language="">ow2.D3Chart</file>
+<file defaultAction="0" language="">ow2.CreateButton</file>
+<file defaultAction="0" language="">ow2.Activity</file>
+<file defaultAction="0" language="">ow2.Omm</file>
+<file defaultAction="0" language="">ow2.OmmSheet</file>
+<file defaultAction="0" language="">ow2.NewDocumentManager</file>
+</files></package>

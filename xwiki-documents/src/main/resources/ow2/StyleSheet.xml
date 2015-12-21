@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xwikidoc>
+<web>ow2</web>
+<name>StyleSheet</name>
+<language></language>
+<defaultLanguage>en</defaultLanguage>
+<translation>0</translation>
+<parent></parent>
+<creator>xwiki:XWiki.sl</creator>
+<author>xwiki:XWiki.sl</author>
+<customClass></customClass>
+<contentAuthor>xwiki:XWiki.sl</contentAuthor>
+<creationDate>1445867156000</creationDate>
+<date>1450104750000</date>
+<contentUpdateDate>1445867156000</contentUpdateDate>
+<version>13.9</version>
+<title></title>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment></comment>
+<minorEdit>true</minorEdit>
+<syntaxId>xwiki/2.1</syntaxId>
+<hidden>false</hidden>
+<object>
+<class>
+<name>XWiki.StyleSheetExtension</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<cache>
+<cache>0</cache>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>cache</name>
+<number>5</number>
+<prettyName>Caching policy</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<unmodifiable>0</unmodifiable>
+<values>long|short|default|forbid</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</cache>
+<code>
+<disabled>0</disabled>
+<name>code</name>
+<number>2</number>
+<prettyName>Code</prettyName>
+<rows>20</rows>
+<size>50</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+</code>
+<contentType>
+<cache>0</cache>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>contentType</name>
+<number>6</number>
+<prettyName>Content Type</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<unmodifiable>0</unmodifiable>
+<values>CSS|LESS</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</contentType>
+<name>
+<disabled>0</disabled>
+<name>name</name>
+<number>1</number>
+<prettyName>Name</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</name>
+<parse>
+<disabled>0</disabled>
+<displayFormType>select</displayFormType>
+<displayType>yesno</displayType>
+<name>parse</name>
+<number>4</number>
+<prettyName>Parse content</prettyName>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+</parse>
+<use>
+<cache>0</cache>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>use</name>
+<number>3</number>
+<prettyName>Use this extension</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<unmodifiable>0</unmodifiable>
+<values>currentPage|onDemand|always</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</use>
+</class>
+<name>ow2.StyleSheet</name>
+<number>0</number>
+<className>XWiki.StyleSheetExtension</className>
+<guid>61d45998-7cad-4b21-8f55-84636dd43e65</guid>
+<property>
+<cache>forbid</cache>
+</property>
+<property>
+<code>#xwikicontent {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-top: 0em;
+}
+
+#menuview .navbar-brand img {
+    height: 28px;
+    margin-top: 10px;
+}
+
+
+/*
+
+.panels {
+  margin-top: 2em;
+ }
+
+.panel {
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+
+.xwikipanelcontents {
+  padding: 0px 16px;
+}
+
+.panel ul {
+  padding: 15px 10px 0px 10px;
+}
+*/
+
+.code {
+    max-width: 700px;
+    overflow-x: hidden;
+}
+
+.fullScreenEditLinkContainer {
+  display: none;
+}
+
+.form-control, textarea, select, input[type="text"], input[type="password"] {
+  border: 1px solid #eee;
+  border-radius:0px;
+}
+
+.form-control:focus, textarea:focus, select:focus, input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: none;
+}
+
+.box {
+    padding: 1em 2em 1em 2em;
+    margin-top: 1em;
+    //background-color: #ffe9c4;
+}
+
+.box p {
+  margin: 0;
+}
+
+th {
+  font-size: 1 em;
+  font-weight: bold;
+}
+
+h2, .h2 {
+  border-bottom: 1px solid #2196f3;
+  padding-bottom: .3em;
+  font-size: 1.5em;
+  color: #999;
+}
+
+.table&gt;thead&gt;tr&gt;th, .table&gt;tbody&gt;tr&gt;th, .table&gt;tfoot&gt;tr&gt;th, .table&gt;thead&gt;tr&gt;td, .table&gt;tbody&gt;tr&gt;td, .table&gt;tfoot&gt;tr&gt;td, table&gt;thead&gt;tr&gt;th, table&gt;tbody&gt;tr&gt;th, table&gt;tfoot&gt;tr&gt;th, table&gt;thead&gt;tr&gt;td, table&gt;tbody&gt;tr&gt;td, table&gt;tfoot&gt;tr&gt;td {
+    border-top: none;
+    border-bottom: 1px solid #ddd;
+}
+
+
+thead.xwiki-livetable-display-header th.xwiki-livetable-display-header-text {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+
+table.xwiki-livetable table.xwiki-livetable-display thead.xwiki-livetable-display-header {
+   border-bottom: none;
+}
+
+tr.xwiki-livetable-display-filters {
+  display: none;
+}
+
+#tmCreate {
+  display: none;
+}
+
+
+#tmMoreActions {
+ display: none;
+}
+
+#xwikimainmenu ul:nth-child(2) {
+   display: none;
+}
+
+#project-list {
+  background: url($xwiki.getSkinFile("icons/xwiki/spinner.gif")) no-repeat 50% 50%;
+  height: 300px;
+}
+
+.project-summary-table {
+    margin-bottom: 2em;
+}
+
+
+.project-summary-table td {
+    border-bottom: none;
+}
+
+.project-summary-table th {
+    border-bottom: none;
+}
+
+table.metrics-table td:last-child {
+font-size: 0.9em;
+
+}
+
+table {
+  margin-bottom: 10px;
+}
+
+.home-table {
+  margin-bottom: 0px;
+}
+
+.home-table td {
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+.home-panel th {
+  text-align: center;
+  border-bottom: none;
+  padding-top: 2em;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.home-panel td {
+    border-bottom: none;
+}
+
+.home-panel a {
+    color: white;
+}
+.btn-riscoss {
+  background-color: #a2c309;
+}
+
+a.btn-riscoss  {
+  color: white;
+}
+
+
+
+#xdocFooter {
+  display: none;
+}
+
+#xdocTags {
+ display: none;
+}
+
+
+hr { margin: 0; }
+
+.document-header {margin-bottom: 0;}
+
+/********* BTN *********/
+.btn-primary {
+    background-image: none;
+    border: none;
+    background-color: #009DFE;
+    outline: none;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-image: none;
+    border: none;
+    background-color: #0086db;
+    outline: none;
+}
+
+.btn-info, .btn-success, .btn-default {
+    background-image: none;
+    border: none;
+    background-color: darkgray;
+    color: white;
+    outline: none;
+}
+
+.btn-info:hover, .btn-info:active:hover, .btn-info:focus, .btn-success:hover, .btn-success:active:hover, .btn-success:focus, .btn-default:hover, .btn-default:active:hover, .btn-default:focus {
+    background-image: none;
+    border: none;
+    background-color: gray;
+    color: white;
+    outline: none;
+}
+
+/********* MAIN *********/
+div.main {
+    /* -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3); */
+    box-shadow: none;
+
+}
+/* a {
+  color: #2fa32c;
+}*/
+
+#footerglobal {
+   display: visible;
+}
+
+select.model-select {
+  color: white;
+  background-color: #c6c6c6;
+  box-shadow: none;
+  border: none;
+  padding: 3px 20px 3px 10px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAMAAACelLz8AAAAJ1BMVEVmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmaP/QSjAAAADHRSTlMAAgMJC0uWpKa6wMxMdjkoAAAANUlEQVR4AeXJyQEAERAAsNl7Hf3X6xt0QL6JpZWq30pdvdadme+0PMdzvHm8YThHcT1H7K0BtOMDniZhWOgAAAAASUVORK5CYII=);
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position: 98% 50%;
+  line-height: 1.5;
+}
+
+.btn-riscoss-dashboard {
+   text-align: center;
+    margin-top: 1.5em;
+}
+.btn-riscoss-dashboard a {
+   background-color:#20b2aa;
+   color: white;
+}
+
+.btn-riscoss-dashboard a:hover {
+   color: white;
+}
+
+.btn-dev-dashboard {
+   text-align: center;
+}
+.btn-dev-dashboard a {
+   background-color: gray;
+   color: white;
+}
+
+.btn-dev-dashboard a:hover {
+   color: white;
+}
+
+.credits {
+  text-align: center;
+  background-color: #e5e5e5;
+  padding: 1em;
+}
+
+
+/** CHART **/
+
+div.chart {
+  background-color: white;
+  margin: 0px;
+}
+
+.chart div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+
+.chart text.name {
+  fill: blue;
+}
+
+.chart rect {
+  stroke: white;
+  fill: #009dfe;
+}
+
+.chart text {
+  fill: white;
+}
+
+.chart text.name {
+  fill: #000;
+}
+
+.chart line {
+  stroke: #c1c1c1;
+  stroke-width: 0.5;
+}
+
+.chart .rule {
+  fill: #000;
+}
+
+.chart rect {
+  stroke: none;
+}
+
+.chart rect:hover {
+  fill: #64707D;
+}
+
+.chart-legend {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2em;
+  margin: 1em;
+}
+
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+.nav-tabs&gt;li&gt;a {
+    border: none;
+    margin-right: 0;
+    color: #666;
+    box-shadow: none;
+}
+.tab-content {
+  padding: 1em;
+  border: 1px solid #e6e6e6;
+}
+
+.nav-tabs&gt;li&gt;a {
+  border-radius: 0px;
+  background-color: #1667a6;
+  color: white;
+ border: 0px;
+ }
+
+.nav-tabs&gt;li.active&gt;a {
+  color: white;
+  background-color: #2196f3;
+  border: 0px;
+}
+
+
+.nav-tabs&gt;li.active&gt;a:hover {
+  color: white;
+  background-color: #2196f3;
+  border: 0px;
+}
+
+.nav-tabs&gt;li.active&gt;a:focus {
+    color: white;
+    background-color: #2196f3;
+border: 0px;
+}
+
+#mainContentArea&gt;.xcontent {
+   margin-bottom: 0px;
+}
+
+
+blockquote {
+  font-size: 1em;
+}
+
+td {
+  vertical-align: middle !important;
+}
+
+th span.glyphicon, td span.glyphicon {
+  /* color: #FE6600; */
+  color: #009DFE;
+  margin-left: 0.5em;
+}
+
+.popover {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 12px;
+}
+
+.popover-content {
+    padding: 18px 18px;
+}
+
+.popover-content ul {
+  padding-left: 20px;
+  margin-bottom: inherit;
+}
+
+.glyphicon-info-sign {
+  cursor: pointer;
+}
+
+.xdocLastModification {
+  display: none;
+}
+
+#xwikicontent .nav-pills&gt;li&gt;a {
+  background-color: #efefef;
+  padding: 5px 10px;
+}
+
+#xwikicontent .nav-pills&gt;li&gt;a:hover {
+  background-color: #c9c9c9;
+}
+
+.nav-pills {
+  float: right;
+}
+
+
+
+.nav .globalsearch {
+  display: none;
+}
+
+.globalsearch .input-group-btn {
+    display: none;
+}
+</code></property><property><contentType>CSS</contentType>
+</property>
+<property>
+<name></name>
+</property>
+<property>
+<parse>1</parse>
+</property>
+<property>
+<use>always</use>
+</property>
+</object>
+<object>
+<class>
+<name>XWiki.XWikiRights</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<allow>
+<defaultValue>1</defaultValue>
+<disabled>0</disabled>
+<displayFormType>select</displayFormType>
+<displayType>allow</displayType>
+<name>allow</name>
+<number>4</number>
+<prettyName>Allow/Deny</prettyName>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+</allow>
+<groups>
+<cache>0</cache>
+<disabled>0</disabled>
+<displayType>input</displayType>
+<multiSelect>1</multiSelect>
+<name>groups</name>
+<number>1</number>
+<picker>1</picker>
+<prettyName>Groups</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<size>5</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.GroupsClass</classType>
+</groups>
+<levels>
+<cache>0</cache>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>1</multiSelect>
+<name>levels</name>
+<number>2</number>
+<prettyName>Levels</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<size>3</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.LevelsClass</classType>
+</levels>
+<users>
+<cache>0</cache>
+<disabled>0</disabled>
+<displayType>input</displayType>
+<multiSelect>1</multiSelect>
+<name>users</name>
+<number>3</number>
+<picker>1</picker>
+<prettyName>Users</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<size>5</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.UsersClass</classType>
+</users>
+</class>
+<name>ow2.StyleSheet</name>
+<number>0</number>
+<className>XWiki.XWikiRights</className>
+<guid>6a8f3558-829a-482a-8828-3770fb3565d0</guid>
+<property>
+<allow>1</allow>
+</property>
+<property>
+<groups></groups>
+</property>
+<property>
+<levels>view</levels>
+</property>
+<property>
+<users>XWiki.XWikiGuest</users>
+</property>
+</object>
+<object>
+<class>
+<name>XWiki.XWikiRights</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<allow>
+<defaultValue>1</defaultValue>
+<disabled>0</disabled>
+<displayFormType>select</displayFormType>
+<displayType>allow</displayType>
+<name>allow</name>
+<number>4</number>
+<prettyName>Allow/Deny</prettyName>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+</allow>
+<groups>
+<cache>0</cache>
+<disabled>0</disabled>
+<displayType>input</displayType>
+<multiSelect>1</multiSelect>
+<name>groups</name>
+<number>1</number>
+<picker>1</picker>
+<prettyName>Groups</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<size>5</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.GroupsClass</classType>
+</groups>
+<levels>
+<cache>0</cache>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>1</multiSelect>
+<name>levels</name>
+<number>2</number>
+<prettyName>Levels</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<size>3</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.LevelsClass</classType>
+</levels>
+<users>
+<cache>0</cache>
+<disabled>0</disabled>
+<displayType>input</displayType>
+<multiSelect>1</multiSelect>
+<name>users</name>
+<number>3</number>
+<picker>1</picker>
+<prettyName>Users</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<size>5</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.UsersClass</classType>
+</users>
+</class>
+<name>ow2.StyleSheet</name>
+<number>1</number>
+<className>XWiki.XWikiRights</className>
+<guid>2c42ac54-09c4-45de-8f6f-c0d35e74c30f</guid>
+<property>
+<allow>1</allow>
+</property>
+<property>
+<groups>XWiki.XWikiAllGroup,</groups>
+</property>
+<property>
+<levels>view</levels>
+</property>
+<property>
+<users></users>
+</property>
+</object>
+<content></content></xwikidoc>

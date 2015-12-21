@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xwikidoc>
+<web>ow2</web>
+<name>risk-models</name>
+<language></language>
+<defaultLanguage>en</defaultLanguage>
+<translation>0</translation>
+<parent></parent>
+<creator>xwiki:XWiki.sl</creator>
+<author>xwiki:XWiki.sl</author>
+<customClass></customClass>
+<contentAuthor>xwiki:XWiki.sl</contentAuthor>
+<creationDate>1442962488000</creationDate>
+<date>1449075453000</date>
+<contentUpdateDate>1449075453000</contentUpdateDate>
+<version>18.12</version>
+<title>Risk Models</title>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment></comment>
+<minorEdit>true</minorEdit>
+<syntaxId>xwiki/2.1</syntaxId>
+<hidden>false</hidden>
+<content>{{velocity}}
+#set($xOptions = {"type":"ow2.RiskModel", "exclude": "ow2.RiskModelTemplate", "overview": "description", "author": "true"})
+{{include reference="ow2.XTable" /}}
+#set($cOptions = {"template":"ow2.RiskModelTemplate", "space":"ow2", "parent": "ow2.risk-models", "hint": "New risk model"})
+{{include reference="ow2.CreateForm" /}}
+{{/velocity}}
+</content></xwikidoc>

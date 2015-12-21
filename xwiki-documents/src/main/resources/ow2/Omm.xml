@@ -1,0 +1,1526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xwikidoc>
+<web>ow2</web>
+<name>Omm</name>
+<language></language>
+<defaultLanguage></defaultLanguage>
+<translation>0</translation>
+<parent>ow2.WebHome</parent>
+<creator>xwiki:XWiki.sl</creator>
+<author>xwiki:XWiki.sl</author>
+<customClass></customClass>
+<contentAuthor>xwiki:XWiki.sl</contentAuthor>
+<creationDate>1446115393000</creationDate>
+<date>1446450204000</date>
+<contentUpdateDate>1446450204000</contentUpdateDate>
+<version>9.54</version>
+<title></title>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment>Updated class property</comment>
+<minorEdit>true</minorEdit>
+<syntaxId>xwiki/2.1</syntaxId>
+<hidden>false</hidden>
+<class>
+<name>ow2.Omm</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<CM-1_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>CM-1_1</name>
+<number>47</number>
+<picker>0</picker>
+<prettyName>Does the project identify configuration items?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</CM-1_1>
+<CM-1_2>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>CM-1_2</name>
+<number>48</number>
+<picker>0</picker>
+<prettyName>Does the project use a configuration / version management system (SVN, Git, etc.)?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Usage of a configuration management system|Configuration management system access control procedures|Change request database connected to the configuration management system</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</CM-1_2>
+<CM-1_3>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>CM-1_3</name>
+<number>49</number>
+<picker>0</picker>
+<prettyName>Does the project manage releases?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Availability of releases|Description of releases</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</CM-1_3>
+<CM-2_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>CM-2_1</name>
+<number>50</number>
+<picker>0</picker>
+<prettyName>Does the project track change requests?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</CM-2_1>
+<CM-2_2>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>CM-2_2</name>
+<number>51</number>
+<picker>0</picker>
+<prettyName>Does the project control changes in configuration items?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Revision history of configuration items|Archives of the releases</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</CM-2_2>
+<CM-3_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>CM-3_1</name>
+<number>52</number>
+<picker>0</picker>
+<prettyName>Does the project manage configuration management records?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Revision history of configuration items|Change log|Annotation of the change requests|Status of configuration items|Document differences between releases</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</CM-3_1>
+<DFCT-1_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>DFCT-1_1</name>
+<number>35</number>
+<picker>0</picker>
+<prettyName>Does the project implement good FLOSS maintenance practices?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>The project has a clear maintenance policy|Delegate authority to a group of developers for the maintenance process|Separate maintenance work on older version of the product from the work on the current version of the product|Provide separate mailing lists, forums, web pages for maintenance</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</DFCT-1_1>
+<DFCT-1_2>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>DFCT-1_2</name>
+<number>36</number>
+<picker>0</picker>
+<prettyName>Does the project maintain the most often used older versions of the product?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>The number of old versions that are actively maintained is large|The duration for which old versions of the product are maintained is large (up to two years)</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</DFCT-1_2>
+<DFCT-2_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>DFCT-2_1</name>
+<number>37</number>
+<picker>0</picker>
+<prettyName>Does the project provide a standardized and well-documented contributing mechanism?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Corrections to source code and new code can be contributed easily|Bug reports can be contributed easily|Corrections to documentation can be contributed easily|Suggestions for new features  can be contributed easily|The defect reporting system is well aligned with the development environment</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</DFCT-2_1>
+<DFCT-3_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>DFCT-3_1</name>
+<number>38</number>
+<picker>0</picker>
+<prettyName>Does the project manage the defect reports?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>The project processes the defects submitted at fixed intervals|The project resolves defects based on nature of defect (based on severity of defect)|The project updates defect report showing revision history</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</DFCT-3_1>
+<DFCT-3_2>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>DFCT-3_2</name>
+<number>39</number>
+<picker>0</picker>
+<prettyName>Does the project create and maintain a data repository of closed defects?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>source code related to the closed defects can be easily retrieved|Bug reports can be easily retrieved|Documentation contributions can be easily retrieved|All contributions can be searched according to different criteria (e.g. topic, source code file name, author, distribution of the project, date of contribution, complete set of subsequent changes of the contribution)</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</DFCT-3_2>
+<DFCT-4_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>DFCT-4_1</name>
+<number>40</number>
+<picker>0</picker>
+<prettyName>Does the community respond efficiently to defect reports?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Efficiency of response time related to resolving defects Efficiency of response related to source code inclusion into the new distribution</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</DFCT-4_1>
+<DFCT-4_2>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>DFCT-4_2</name>
+<number>41</number>
+<picker>0</picker>
+<prettyName>Does the project offer specific recognition to users who report defects?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>The project grant users voting privileges inside the community|Users reporting defects are singled out in mailing lists, forums, etc.</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</DFCT-4_2>
+<ENV-1_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>ENV-1_1</name>
+<number>29</number>
+<picker>0</picker>
+<prettyName>Does the project ensure availability of software tools and environment required for development?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>The project has specialized mailing lists for users/developers|The project has specialized forums for users/developers|The project has specialized wiki pages for users/developers|The project supports audio/video conferencing facilities|The project has audio/video messages presenting key aspects of use and development|The project has a list presenting and describing all the tools used inside the community for specific purposes|The project supports the use of tools that are developed in order to improve the FLOSS development</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</ENV-1_1>
+<ENV-1_2>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>ENV-1_2</name>
+<number>30</number>
+<picker>0</picker>
+<prettyName>Does the project ensure availability of methodologies required for development?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>The project has workflows for checking, testing, contributing, etc|Availability of technical documentation of the methodologies</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</ENV-1_2>
+<ENV-1_3>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>ENV-1_3</name>
+<number>31</number>
+<picker>0</picker>
+<prettyName>Are there integrated management and communication tools used by the project (select the tool relevant to the project, see examples below)?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>BlueFish|Anjuta|Glade|GCC|Kdevelop|GDB|KompoZer|Eclipse|The project is well integrated in important forges</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</ENV-1_3>
+<ENV-2_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>ENV-2_1</name>
+<number>32</number>
+<picker>0</picker>
+<prettyName>Can users suggest modifications to the environment?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>The users have the possibility of commenting the choice of tools|The project takes into consideration comments from users (e.g. mailing list, email communication)</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</ENV-2_1>
+<ENV-2_2>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>ENV-2_2</name>
+<number>33</number>
+<picker>0</picker>
+<prettyName>Does the project maintain the development environment corresponding to each maintained FLOSS version?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>list of tools used for a version and the tools themselves</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</ENV-2_2>
+<ENV-3_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>ENV-3_1</name>
+<number>34</number>
+<picker>0</picker>
+<prettyName>Does the project gradually phase out commercial development resources and tools in favour of FLOSS equivalents?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>The project has a clearly defined plan to phase out commercial development resources and tools and to introduce FLOSS components|Transition to FLOSS from proprietary tools is documented and presented</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</ENV-3_1>
+<LCS-1_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>LCS-1_1</name>
+<number>23</number>
+<picker>0</picker>
+<prettyName>Has the project evaluated available choices against licenses already used inside the FLOSS project, or the license strategy/policy inside the company when choosing its license?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>&lt;p&gt;For communities:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Is the compatibility of the license of new components with the already used licenses checked regularly? (e.g is there a process defined to do this?)&lt;/li&gt;&lt;li&gt;New licenses adopted or linked to the project are compatible with the one already used.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;For integrators policy/strategy:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Has the project identified options for FLOSS licenses to use according to company strategy&lt;/li&gt;&lt;/ul&gt;</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</LCS-1_1>
+<LCS-1_2>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>LCS-1_2</name>
+<number>24</number>
+<picker>0</picker>
+<prettyName>Does the project clearly manage its licensing conditions?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>The project clearly displays a license notice on its website.|The complete license text is available with the product.|Licensing conditions and their implications are unambiguously described. In particular  for purposes of software integration and further linking to other products / components.|All files have a license explicitly stated at each file (otherwise at file level it is difficult to decide whether a files does not have a license or if the license is inherited from the project). Number of files with no explicitly listed license/modules (evolution ratio).</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</LCS-1_2>
+<LCS-2_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>LCS-2_1</name>
+<number>25</number>
+<picker>0</picker>
+<prettyName>Has the project selected appropriate copyright and IP policy?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Has the project identified a policy for code ownership (e.g. contributions may belong to their individual authors versus a single entity)?|Is the copyright and IP policy chosen by the project compatible with the license of the project?</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</LCS-2_1>
+<LCS-2_2>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>LCS-2_2</name>
+<number>26</number>
+<picker>0</picker>
+<prettyName>Does the project clearly manage its copyright and IP policy?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Copyright and IP policy available at the project level (website)|Copyright statement is available at the project level|Copyright statement is available in individual project files|In the case the ownership of the code belongs to a well-defined entity, presence of a Contributor Agreement</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</LCS-2_2>
+<LCS-3_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>LCS-3_1</name>
+<number>27</number>
+<picker>0</picker>
+<prettyName>Ensure that the product does not contain or use components that are not distributed under a FLOSS license (and the licenses of the components need to be compatible)</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</LCS-3_1>
+<LCS-3_2>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>LCS-3_2</name>
+<number>28</number>
+<picker>0</picker>
+<prettyName>The license(s) is(are) endorsed by the OSI ([[http://www.opensource.org/licenses]])</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</LCS-3_2>
+<MST-1_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>MST-1_1</name>
+<number>42</number>
+<picker>0</picker>
+<prettyName>Does the project ensure that design and code are maintainable and stable (e.g. through best practices)?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>The project conducts regular stability tests|The project has a well defined / stable architecture|Completeness of single modules and contributions are tested in the project|Consistency of single modules and contributions are tested in the project|Reliability of single modules and of the whole product are tested in the project|The Maintainability index is calculated, presented and positive (lines-of-code measures, McCabe measures and Halstead complexity measures)</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</MST-1_1>
+<MST-1_2>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>MST-1_2</name>
+<number>43</number>
+<picker>0</picker>
+<prettyName>Does the project assess the interoperability and compatibility of old and new versions of the product?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</MST-1_2>
+<MST-1_3>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>MST-1_3</name>
+<number>44</number>
+<picker>0</picker>
+<prettyName>Does the project conduct stability tests on different software and hardware systems?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Tests on different operating systems (Linux, Windows, MAC, Solaris, BSD etc)|Tests using different compilers|Tests using different hardware (different PC configurations, mobile devices, Macintosh computers, etc)|Tests using different software configurations necessary for the functioning of the product</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</MST-1_3>
+<MST-2_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>MST-2_1</name>
+<number>45</number>
+<picker>0</picker>
+<prettyName>Does the project enforce good maintainability of the software?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Define goals for maintainability |Delegate authority to a group of developers for the product maintenance|Separate the maintenance of previous versions of the product from the work on the current version of the product|Provide the tools for the maintenance process (separate mailing lists, forums, web pages)|New additions and changes follow project internal standards (such as coding guidelines; workflow guidelines)</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</MST-2_1>
+<MST-2_2>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>MST-2_2</name>
+<number>46</number>
+<picker>0</picker>
+<prettyName>Does the project maintain the most often used older versions of the product?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Number of old versions that are actively maintained &gt; 0|Duration for which old versions of the product are maintained adapted to user requirements</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</MST-2_2>
+<PDOC-1_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>PDOC-1_1</name>
+<number>2</number>
+<picker>0</picker>
+<prettyName>Does the project create a development documentation?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator></separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Check the availability of requirements specification|Check the availability of high level design / product architecture|Check the availability of detailed design|Check the availability of technical documentation (e.g. for use in debugging)|Check the availability of workflow guidelines (for checking, testing...)</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</PDOC-1_1>
+<PDOC-1_2>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>PDOC-1_2</name>
+<number>4</number>
+<picker>0</picker>
+<prettyName>Does the project create user documentation?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Check the availability of a user's guide|Check the availability of FAQ documents|Check the availability of training material on how to use the product (Multimedia rich material)</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</PDOC-1_2>
+<PDOC-1_3>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>PDOC-1_3</name>
+<number>5</number>
+<picker>0</picker>
+<prettyName>Does the project create generic documentation?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Check the availability of roadmap documents|Check the availability of a list of all documents available|Check the availability of books describing the project (number, language...)|Check other web based resources in the internet by third party</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</PDOC-1_3>
+<PDOC-2_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>PDOC-2_1</name>
+<number>6</number>
+<picker>0</picker>
+<prettyName>Does the project provide a documentation system?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Check the availability of a documentation indexing feature (searching keywords for example)|Check the availability of a  documentation management system (ex. Epiware, KnowledgeTree, Alfresco, Plone, OpenDocMan...)</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</PDOC-2_1>
+<PDOC-2_2>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>PDOC-2_2</name>
+<number>7</number>
+<picker>0</picker>
+<prettyName>Does the project maintain the documentation based on the collected user feedback?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Check for evidence of systematic evaluation of user feedback and maintenance |Check the availability of a set of wiki pages, forums, or mailing lists focused on project's documentation</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</PDOC-2_2>
+<PDOC-3_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>PDOC-3_1</name>
+<number>8</number>
+<picker>0</picker>
+<prettyName>Does the project have a documentation roadmap?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Check the availability of documentation aspects in the roadmap of the project|Ensure that the documentation is appropriate for the version of the product</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</PDOC-3_1>
+<PDOC-3_2>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>PDOC-3_2</name>
+<number>9</number>
+<picker>0</picker>
+<prettyName>Does the project improve documentation through support of several natural languages?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Check the availability of the documentation in different languages</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</PDOC-3_2>
+<PDOC-3_3>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>PDOC-3_3</name>
+<number>10</number>
+<picker>0</picker>
+<prettyName>Does the project improve intrinsic quality of documentation?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Check if the documentation is better than before</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</PDOC-3_3>
+<PDOC-3_4>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>PDOC-3_4</name>
+<number>11</number>
+<picker>0</picker>
+<prettyName>Improve documents based on feedback and on evaluation</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Check “Change History” of documents for improvements based on feedback from users or evaluation</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</PDOC-3_4>
+<PP-1_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>PP-1_1</name>
+<number>53</number>
+<picker>0</picker>
+<prettyName>Does the project define its scope?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Task descriptions|Work package descriptions|Work breakdown structure (WBS)</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</PP-1_1>
+<PP-1_2>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>PP-1_2</name>
+<number>54</number>
+<picker>0</picker>
+<prettyName>Does the project define its release plan?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</PP-1_2>
+<PP-1_3>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>PP-1_3</name>
+<number>55</number>
+<picker>0</picker>
+<prettyName>Does the project estimate efforts?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Estimation rationale and assumptions for estimates are clear|The project estimates efforts|Inventory of skills needed and available|Critical facilities/equipment list</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</PP-1_3>
+<PP-2_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>PP-2_1</name>
+<number>56</number>
+<picker>0</picker>
+<prettyName>Does the project establish the schedule or milestone plan?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Project schedules|Schedule dependencies|Process/workflow definitions and diagrams</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</PP-2_1>
+<QTP-1_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>QTP-1_1</name>
+<number>16</number>
+<picker>0</picker>
+<prettyName>Does the project ensure that the test plan covers functional testing?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</QTP-1_1>
+<QTP-1_2>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>QTP-1_2</name>
+<number>17</number>
+<picker>0</picker>
+<prettyName>Does the project ensure that the test plan covers non-functional testing (as demanded by the project; see below)?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Scalability|Maintainability|Usability|Performance|Security|Stability|Testability|internationalization/localization|Other non-functional test as demanded by the specific project</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</QTP-1_2>
+<QTP-1_3>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>QTP-1_3</name>
+<number>18</number>
+<picker>0</picker>
+<prettyName>Does the project ensure that the test plan covers different testing approaches?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>unit testing|integration testing|includes system testing|system integration testing</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</QTP-1_3>
+<QTP-1_4>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>QTP-1_4</name>
+<number>19</number>
+<picker>0</picker>
+<prettyName>Does the project define test cases and testing criteria?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>user requirements|architecture requirements|technical requirements|testing process requirements</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</QTP-1_4>
+<QTP-2_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>QTP-2_1</name>
+<number>20</number>
+<picker>0</picker>
+<prettyName>Does the project conduct tests in regular intervals according to plan?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Conduct different tests regularly|Align the testing process with project's roadmap</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</QTP-2_1>
+<QTP-2_2>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>QTP-2_2</name>
+<number>21</number>
+<picker>0</picker>
+<prettyName>Does the project ensure that the test results are documented and available?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Past tests are reported,  explained and results are presented|The project provides detailed test results|Feedback on past tests is obtained and is available for review</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</QTP-2_2>
+<QTP-3_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>QTP-3_1</name>
+<number>22</number>
+<picker>0</picker>
+<prettyName>Does the project include test cases, test results and consider comments from stakeholders of the FLOSS project?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>from developers, occasional contributors, etc.|from users|from integrators|bugs identified (number, type, and severity)|functional requests|performance  actions|Check that a link between test cases and change requests /comments exists</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</QTP-3_1>
+<RDMP-1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>RDMP-1</name>
+<number>59</number>
+<picker>0</picker>
+<prettyName>Does the project define responsibility for the roadmap?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Define responsibility of developers involved in the definition and management of the roadmap</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</RDMP-1>
+<RDMP-2>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>RDMP-2</name>
+<number>60</number>
+<picker>0</picker>
+<prettyName>Does the project efficiently manage its roadmap?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Details for different aspects of development  (bugs, issues, features, releases etc)|The roadmap is prepared for a period longer than one year, or the next two major versions / releases|The roadmap contains a detailed description of new features|The roadmap contains a schedule for new features and future releases|The roadmap elements are well described indicating also their importance for the future version of the product</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</RDMP-2>
+<RDMP-3>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>RDMP-3</name>
+<number>61</number>
+<picker>0</picker>
+<prettyName>Does the project define different types of releases?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Check for major or milestone releases|Check for minor releases (bug fixes, release candidates, etc.)</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</RDMP-3>
+<REQM-1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>REQM-1</name>
+<number>57</number>
+<picker>0</picker>
+<prettyName>Does the project have a way to define relevant requirements?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>The project identifies appropriate requirements providers (users, specifications, etc.)|Criteria for evaluation and acceptance of requirements|List of valid requirements</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</REQM-1>
+<REQM-2>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>REQM-2</name>
+<number>58</number>
+<picker>0</picker>
+<prettyName>Does the project manage requirement changes?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Requirements status|Requirements database|Repository of requirement change decisions</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</REQM-2>
+<STD-1_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>STD-1_1</name>
+<number>12</number>
+<picker>0</picker>
+<prettyName>Does the project implement widely accepted open product standards?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Look for implementation of open standards in the area of:|Networking (TCP/IP, SSL, SMTP, MIME, IMAP, LDAP, WWW-HTTP...)|Web content (HTML...)|Email (SMTP, Email, WWW-MIME...)|Doc Exchange (XML …)| Graphics (PNG …)|Window System (X Window …)|Audio (Ogg, Vorbis …)|Office documents (OpenDocument …)|Web services (UDDI, SOAP…)</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</STD-1_1>
+<STD-1_2>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>STD-1_2</name>
+<number>13</number>
+<picker>0</picker>
+<prettyName>Does the project implements standards certified by FLOSS-supporting certification entities?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>The project implements standards proposed by the following certification entities: IETF, IEEE, OASIS, W3C, Free Standards Group, other FLOSS supporting entities</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</STD-1_2>
+<STD-1_3>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>STD-1_3</name>
+<number>14</number>
+<picker>0</picker>
+<prettyName>Does the project identify clearly the standards relevant to the product?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</STD-1_3>
+<STD-2_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>STD-2_1</name>
+<number>15</number>
+<picker>0</picker>
+<prettyName>Does the project ensure independence from specific technologies?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Independence from proprietary standards|Independence from proprietary development tools|Independence from proprietary modules and software components|Independence from proprietary data formats</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</STD-2_1>
+<STK-1_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>STK-1_1</name>
+<number>62</number>
+<picker>0</picker>
+<prettyName>Does the project identify its stakeholders (users, contributors, community)?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</STK-1_1>
+<STK-1_2>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>STK-1_2</name>
+<number>63</number>
+<picker>0</picker>
+<prettyName>Does the project share information with its stakeholders?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Ways to inform the stakeholders (website, mailing lists, newsletter, …)|Regular meetings of key stakeholders and dates for future meetings</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</STK-1_2>
+<STK-1_3>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>STK-1_3</name>
+<number>64</number>
+<picker>0</picker>
+<prettyName>Does the project monitor the communication traffic inside the community?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Module authorship (number of modules owned by authors)|Code leadership (percentage of total number of modules owned by author)|Number of active developers turned into core developers|Ratio users/developers/core-developers|Ratio orphaned lines (without known active owner)|Presence of authorship tree (for single modules)|List of most active mailing list contributors|The communication level inside the community is alive and diversified|List of most active mailing list contributors|Number of mailing lists subscribers (simple users) turned into developers (code contributing users) (evolution ratio)</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</STK-1_3>
+<STK-2_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>STK-2_1</name>
+<number>65</number>
+<picker>0</picker>
+<prettyName>Does the project encourage stakeholders to participate in the meetings where they are required?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Provide benefits to users that are contributing to the community (voting privileges, management privileges, source code modification privileges etc)|Moderate mailing lists / forums|Moderate bug/issue management systems|Survey regularly users what is their satisfaction level with available communication channels|Adapt communication channels according to new requirements and comments provided by users</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</STK-2_1>
+<STK-2_2>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>STK-2_2</name>
+<number>66</number>
+<picker>0</picker>
+<prettyName>Does the project measure regularly communication inside the community?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Number of bug-tracking issues (evolution ratio)|Number of bug-tracking issues unassigned (evolution ratio)|Percentage of bug-tracking issues resolved (per week, per month etc)|Number of writers in mailing lists (evolution ratio, classes: active, passive, quite active, very active)|Number of mailing lists subscribers turned into developers (evolution ratio)|Ratio of downloads this week over number of downloads in previous week|Number of feature requests submitted by users/developers (evolution ratio)|Number of bugs/issues submitted to the project (evolution ratio)|Number of subscribers in the mailing lists (evolution ratio)</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</STK-2_2>
+<STK-2_3>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>STK-2_3</name>
+<number>67</number>
+<picker>0</picker>
+<prettyName>Does the project measure the response rate inside different communication channels?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Provide strong reactivity based on roles assignment|Provide strong reactivity in mailing lists|Provide strong reactivity in bug solution|Provide strong reactivity in issues consideration</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</STK-2_3>
+<STK-3_1>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>STK-3_1</name>
+<number>68</number>
+<picker>0</picker>
+<prettyName>Does the project measure the response level inside different communication channels and propose improvements?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</STK-3_1>
+<STK-3_2>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>STK-3_2</name>
+<number>69</number>
+<picker>0</picker>
+<prettyName>Does the project improve the management style inside the project?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Regularly assign roles related to different communication channels|Regularly evaluate the quality of the communication inside the project</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</STK-3_2>
+<STK-3_3>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>STK-3_3</name>
+<number>70</number>
+<picker>0</picker>
+<prettyName>Does the project improve the communication level inside the community?</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Take actions to prevent flaming|Define communication rules|Assign responsibility related to abuse inside the communication channel|inappropriate communication (flaming, etc.) leads to loss of privileges|Require from users that want to start actively communications inside the community to explicitly agree with defined communication rules</validationMessage>
+<validationRegExp></validationRegExp>
+<values>0=0|1=0 -25|2=25-50|3=50-75|4=75-100</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</STK-3_3>
+</class>
+<object>
+<class>
+<name>XWiki.ClassSheetBinding</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<sheet>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<name>sheet</name>
+<number>1</number>
+<picker>0</picker>
+<prettyName>Sheet</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</sheet>
+</class>
+<name>ow2.Omm</name>
+<number>0</number>
+<className>XWiki.ClassSheetBinding</className>
+<guid>1cb0852c-fc3d-4f62-ad52-cf34096c416a</guid>
+<property>
+<sheet>ow2.OmmSheet</sheet>
+</property>
+</object>
+<object>
+<class>
+<name>XWiki.DocumentSheetBinding</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<sheet>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<name>sheet</name>
+<number>1</number>
+<picker>0</picker>
+<prettyName>Sheet</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</sheet>
+</class>
+<name>ow2.Omm</name>
+<number>0</number>
+<className>XWiki.DocumentSheetBinding</className>
+<guid>ffe9dbcc-ab7c-4ce9-a3b5-ccd59c2dc3fb</guid>
+<property>
+<sheet>XWiki.ClassSheet</sheet>
+</property>
+</object>
+<content></content></xwikidoc>
