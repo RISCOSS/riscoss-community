@@ -1,4 +1,4 @@
-RISCOSS Community Platform is an application aimed at demonstrating the RISCOSS approach in the context of community projects such as the [OW2 Community](http://www.ow2.org). A live demo of the platform is available at the following URL: [RISCOSS Community Platform for the OW2 Community](https://projects.ow2.org/bin/view/riscoss/).
+RISCOSS Community Platform is an application aimed at demonstrating the [RISCOSS](http://www.riscoss.eu) approach in the context of community projects such as the [OW2 Community](http://www.ow2.org). A live demo of the platform is available at the following URL: [RISCOSS Community Platform for the OW2 Community](https://projects.ow2.org/bin/view/riscoss/).
 
 ## Requirements
 
